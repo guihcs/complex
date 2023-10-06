@@ -1,3 +1,7 @@
-SELECT distinct ?s ?o WHERE {  
-?s <http://cmt#date> ?o .  
- }
+
+
+
+Restriction(
+    onProperty = InverseOf(date),
+    someValuesFrom = Conference
+)

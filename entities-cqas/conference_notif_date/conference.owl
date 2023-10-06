@@ -1,8 +1,12 @@
-PREFIX :<http://conference#>
 
-SELECT distinct ?s ?o WHERE{
-?s :has_important_dates ?o2 .
-?o2 a :Important_dates.
-?o2 :is_a_date_of_acceptance_announcement ?o.
 
-}
+Restriction(
+    onProperty = InverseOf(is_a_date_of_acceptance_announcement),
+    someValuesFrom = IntersectionOf(
+        Important_dates,
+        Restriction(
+            onProperty = InverseOf(has_important_dates),
+            someValuesFrom = Conference_volume
+        )
+    )
+)

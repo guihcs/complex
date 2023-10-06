@@ -1,4 +1,5 @@
-SELECT distinct ?s ?o 
-WHERE {
- ?s <http://confOf#earlyRegistration> ?o .
-}
+
+Restriction(
+    onProperty = InverseOf(earlyRegistration),
+    someValuesFrom = Participant
+)

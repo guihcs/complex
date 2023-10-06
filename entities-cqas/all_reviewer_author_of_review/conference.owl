@@ -1,3 +1,5 @@
-SELECT distinct ?s ?o WHERE {  
-?o <http://conference#has_authors> ?s . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://conference#Review> .  
- }
+
+Restriction(
+    onProperty = InverseOf(has_authors),
+    someValuesFrom = Review
+)

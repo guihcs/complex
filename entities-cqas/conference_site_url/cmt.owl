@@ -1,5 +1,6 @@
-PREFIX :<http://cmt#>
 
-SELECT distinct ?s WHERE {  
-?o2 :siteURL ?s .
- }
+
+Restriction(
+    onProperty = InverseOf(siteURL),
+    someValuesFrom = Conference
+)

@@ -1,3 +1,6 @@
-SELECT distinct ?s ?o WHERE {  
-?s <http://edas#manuscriptDueOn> ?o .  
- }
+
+
+Restriction(
+    onProperty = InverseOf(manuscriptDueOn),
+    someValuesFrom = Conference
+)

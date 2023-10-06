@@ -1,3 +1,5 @@
-SELECT distinct ?s ?o WHERE {  
-?s <http://cmt#writeReview> ?o .  
- }
+
+Restriction(
+    onProperty = writeReview,
+    someValuesFrom = Review
+)

@@ -1,4 +1,5 @@
-SELECT distinct ?s WHERE {  
-?s a <http://conference#Conference_participant> .  
-?s a <http://conference#Early_paid_applicant> .  
- }
+
+IntersectionOf(
+    Conference_participant,
+    Early_paid_applicant
+)
