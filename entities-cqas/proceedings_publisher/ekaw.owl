@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty = publisherOf,
+    someValuesFrom = Conference_Proceedings
+)

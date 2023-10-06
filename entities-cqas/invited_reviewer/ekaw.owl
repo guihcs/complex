@@ -1,0 +1,15 @@
+
+
+IntersectionOf(
+    Restriction(
+        onProperty=InverseOf(reviewWrittenBy),
+        someValuesFrom=Review
+    ),
+
+    ComplementOf(
+        Restriction(
+            onProperty=reviewerOfPaper,
+            someValuesFrom=Paper
+        )
+    )
+)

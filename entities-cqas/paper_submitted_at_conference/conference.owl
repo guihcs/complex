@@ -1,0 +1,5 @@
+
+Restriction(
+    onProperty=is_submitted_at,
+    someValuesFrom=Conference_volume
+)

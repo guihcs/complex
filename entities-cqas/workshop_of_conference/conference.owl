@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=InverseOf(has_workshops),
+    someValuesFrom=Conference_volume
+)

@@ -1,0 +1,9 @@
+
+
+IntersectionOf(
+    Workshop,
+    Restriction(
+        onProperty = hasStartDateTime,
+        someValuesFrom = string
+    )
+)

@@ -1,0 +1,17 @@
+
+IntersectionOf(
+    Presentation,
+    Restriction(
+        onProperty=has_an_abstract,
+        someValuesFrom=Restriction(
+            onProperty=InverseOf(has_an_abstract),
+            someValuesFrom=IntersectionOf(
+                Written_contribution,
+                Restriction(
+                    onProperty=is_submitted_at,
+                    someValuesFrom=Conference_volume
+                )
+            )
+        )
+    )
+)

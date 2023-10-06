@@ -1,0 +1,9 @@
+
+IntersectionOf(
+    Publisher,
+    Restriction(
+        onProperty = InverseOf(has_a_publisher),
+        someValuesFrom = Conference_proceedings
+    )
+)
+

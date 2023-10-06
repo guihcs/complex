@@ -1,0 +1,7 @@
+
+
+
+Restriction(
+    onProperty = InverseOf(hasSubjectArea),
+    someValuesFrom = PaperFullVersion
+)

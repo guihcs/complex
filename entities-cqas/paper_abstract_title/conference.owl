@@ -1,0 +1,12 @@
+
+IntersectionOf(
+    Abstract,
+    Restriction(
+        onProperty=is_the_1th_part_of,
+        someValuesFrom=Written_contribution
+    ),
+    Restriction(
+        onProperty=label,
+        someValuesFrom=string
+    )
+)

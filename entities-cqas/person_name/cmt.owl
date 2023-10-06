@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=name,
+    someValuesFrom=Person
+)

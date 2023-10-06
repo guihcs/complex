@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=was_a_track-workshop_chair_of,
+    someValuesFrom=Workshop
+)

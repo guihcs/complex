@@ -1,0 +1,18 @@
+
+
+
+IntersectionOf(
+    Regular_author,
+    Restriction(
+    onProperty=contributes,
+    someValuesFrom=IntersectionOf(
+        Written_contribution,
+        ComplementOf(
+            Abstract
+        )
+    )
+)
+)
+
+
+

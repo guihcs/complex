@@ -1,0 +1,5 @@
+
+Restriction(
+    onProperty = :gives_presentations,
+    someValuesFrom = :Presentation
+)

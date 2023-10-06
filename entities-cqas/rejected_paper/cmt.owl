@@ -1,0 +1,11 @@
+
+UnionOf(
+    Restriction(
+        onProperty = hasDecision,
+        someValuesFrom = Rejection
+    ),
+    Restriction(
+        onProperty = rejectedBy,
+        someValuesFrom = Administrator
+    )
+)

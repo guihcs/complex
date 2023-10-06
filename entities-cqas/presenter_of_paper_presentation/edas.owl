@@ -1,0 +1,14 @@
+
+IntersectionOf(
+    Presenter,
+    Restriction(
+        onProperty = InverseOf(relatesTo),
+        IntersectionOf(
+            SlideSet,
+            Restriction(
+                onProperty = relatesTo,
+                someValuesFrom = PaperPresentation
+            )
+        )
+    )
+)

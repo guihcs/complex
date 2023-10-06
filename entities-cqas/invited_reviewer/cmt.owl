@@ -1,0 +1,8 @@
+
+Intersection(
+    ExternalReviewer,
+    Restriction(
+        onProperty=assignedByReviewer,
+        someValuesFrom=Reviewer
+    )
+)

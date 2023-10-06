@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    Contributed_Talk,
+    Restriction(
+        onProperty=partOfEvent,
+        someValuesFrom=Conference
+    )
+)

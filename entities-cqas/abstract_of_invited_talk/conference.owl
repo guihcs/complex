@@ -1,0 +1,10 @@
+
+
+intersection(
+    Abstract
+    Restriction(
+        onProperty(InverseObjectProperty(has_an_abstract))
+        someValuesFrom(Invited_talk)
+    )
+)
+

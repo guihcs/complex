@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=is_the_1th_part_of,
+    someValuesFrom=Invited_talk
+)

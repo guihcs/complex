@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    Invited_speaker,
+    Restriction(
+        onProperty=contributes,
+        someValuesFrom=Invited_talk
+    )
+)

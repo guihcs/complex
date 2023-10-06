@@ -1,0 +1,12 @@
+
+
+UnionOf(
+  Restriction(
+    onProperty=InverseOf(hasFirstName),
+    someValuesFrom=Person
+  ),
+  Restriction(
+    onProperty=InverseOf(hasSurname),
+    someValuesFrom=Person
+  )
+)

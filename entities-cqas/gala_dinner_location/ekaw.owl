@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=InverseOf(heldIn),
+    someValuesFrom=Conference_Banquet
+)

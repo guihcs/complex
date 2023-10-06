@@ -1,0 +1,9 @@
+
+
+IntersectionOf(
+    Track,
+    Restriction(
+        onProperty = InverseOf(has_tracks),
+        someValuesFrom = Conference_volume
+    )
+)

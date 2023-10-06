@@ -1,0 +1,5 @@
+
+Restriction(
+    onProperty=was_a_committee_chair_of,
+    someValuesFrom=Organizing_committee
+)

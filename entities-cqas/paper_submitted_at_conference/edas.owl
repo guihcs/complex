@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    Paper,
+    Restriction(
+        onProperty=relatesTo,
+        someValuesFrom=Conference
+    ),
+)

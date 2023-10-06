@@ -1,0 +1,7 @@
+
+
+
+Restriction(
+    onProperty=InverseOf(hasEndDateTime),
+    someValuesFrom=Excursion
+)

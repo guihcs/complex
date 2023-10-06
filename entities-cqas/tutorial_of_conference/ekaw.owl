@@ -1,0 +1,10 @@
+
+
+
+IntersectionOf(
+    Tutorial,
+    Restriction(
+        onProperty=InverseOf(hasEvent),
+        someValuesFrom=Conference
+    )
+)

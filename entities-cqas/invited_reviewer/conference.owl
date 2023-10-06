@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=invited_by,
+    someValuesFrom=Reviewer
+)

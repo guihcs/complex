@@ -1,0 +1,13 @@
+
+
+UnionOf(
+  Restriction(
+    onProperty=InverseOf(has_the_first_name),
+    someValuesFrom=Person
+  ),
+  Restriction(
+    onProperty=InverseOf(has_the_last_name),
+    someValuesFrom=Person
+  )
+)
+

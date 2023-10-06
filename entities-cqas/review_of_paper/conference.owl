@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    Review,
+        Restriction(
+        onProperty = reviews,
+        someValuesFrom = Reviewed_contribution
+    )
+)

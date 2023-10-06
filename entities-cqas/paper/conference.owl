@@ -1,0 +1,8 @@
+
+
+IntersectionOf(
+    Written_contribution,
+    ComplemetOf(
+        Abstract
+    )
+)

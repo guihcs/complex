@@ -1,0 +1,6 @@
+
+UnionOf(
+    Conference_participant,
+    Early-Registered_Participant,
+    Late-Registered_Participant
+)

@@ -1,0 +1,11 @@
+
+
+Restriction(
+    onProperty = InverseOf(ends_on),
+    someValuesFrom = IntersectionOf(
+        Camera_Ready_event,
+        Restriction(
+            onProperty = InverseOf(hasAdministrativeEvent),
+            someValuesFrom = Workshop
+        )
+    )

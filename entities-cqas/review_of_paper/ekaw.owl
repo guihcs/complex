@@ -1,0 +1,10 @@
+
+
+
+IntersectionOf(
+    Review,
+    Restriction(
+        onProperty = reviewOfPaper,
+        someValuesFrom = Paper
+    )
+)

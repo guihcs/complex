@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    Written_contribution,
+    Restriction(
+        onProperty=is_the_1th_part_of,
+        someValuesFrom=Paper
+    )
+)

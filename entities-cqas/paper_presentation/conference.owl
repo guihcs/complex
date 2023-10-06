@@ -1,0 +1,8 @@
+
+
+IntersectionOf(
+    Presentation,
+    ComplementOf(
+        Invited_talk
+    )
+)

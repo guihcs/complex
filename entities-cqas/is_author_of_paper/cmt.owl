@@ -1,0 +1,11 @@
+
+UnionOf(
+    Restriction(
+        onProperty=writePaper,
+        someValuesFrom=PaperFullVersion
+    ),
+    Restriction(
+        onProperty=co-writePaper,
+        someValuesFrom=PaperFullVersion
+    )
+)

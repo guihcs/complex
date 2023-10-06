@@ -1,0 +1,10 @@
+
+
+
+Restriction(
+    onProperty=InverseOf(rdfs:label),
+    someValuesFrom=Restriction(
+        onProperty=InverseOf(hasLocation),
+        someValuesFrom=Excursion
+    )
+)

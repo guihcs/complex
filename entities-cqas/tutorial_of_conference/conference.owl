@@ -1,0 +1,10 @@
+
+
+IntersectionOf(
+    Tutorial,
+    Restriction(
+        onProperty=InverseOf(has_tutorials),
+        someValuesFrom=Conference_volume
+    )
+)
+

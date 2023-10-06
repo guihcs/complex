@@ -1,0 +1,10 @@
+IntersectionOf(
+    PaperPresentation,
+    Restriction(
+        onProperty=relatedToPaper,
+        someValuesFrom=Restriction(
+            onProperty=InverseOf(hasRelatedDocument),
+            someValuesFrom=Conference
+        )
+    )
+)

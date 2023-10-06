@@ -1,0 +1,8 @@
+
+
+
+
+Restriction(
+    onProperty=InverseOf(hasFirstName),
+    someValuesFrom=Person
+)

@@ -1,0 +1,14 @@
+
+
+
+
+Restriction(
+    onProperty = InverseOf(ends_on),
+    someValuesFrom = IntersectionOf(
+        Submission_event,
+        Restriction(
+            onProperty = InverseOf(hasAdministrativeEvent),
+            someValuesFrom = Workshop
+        )
+    )
+)

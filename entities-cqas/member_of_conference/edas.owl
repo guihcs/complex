@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=isMemberOf,
+    someValuesFrom=Conference
+)

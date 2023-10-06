@@ -1,0 +1,5 @@
+
+Restriction(
+    onProperty=earlyRegistration,
+    hasValue=false
+)

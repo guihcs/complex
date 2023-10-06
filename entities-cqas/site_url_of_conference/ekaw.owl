@@ -1,0 +1,12 @@
+
+
+IntersectionOf(
+    Restriction(
+        onProperty = InverseOf(rdfs:label),
+        someValuesFrom = Web_Site
+    ),
+    Restriction(
+        onProperty = listsEvent,
+        someValuesFrom = Conference
+    )
+)

@@ -1,0 +1,9 @@
+
+IntersectionOf(
+    Topic,
+    Restriction(
+        onProperty = InverseOf(dealsWith),
+        someValuesFrom = Contribution
+    )
+)
+

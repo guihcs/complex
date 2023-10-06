@@ -1,0 +1,10 @@
+
+IntersectionOf(
+    Invited_Speaker,
+    Restriction(
+        onProperty=InverseOf(writtenBy),
+        someValuesFrom=Restriction(
+            onProperty=paperPresentedAs,
+            someValuesFrom=Invited_Talk)
+    )
+)

@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=hasBeenAssigned,
+    someValuesFrom=Paper
+)

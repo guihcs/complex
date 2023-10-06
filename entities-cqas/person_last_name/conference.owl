@@ -1,0 +1,5 @@
+
+Restriction(
+    onProperty=InverseOf(has_the_last_name),
+    someValuesFrom=Person
+)

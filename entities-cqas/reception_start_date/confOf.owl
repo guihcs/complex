@@ -1,0 +1,5 @@
+
+Restriction(
+    onProperty = InverseOf(starts_on),
+    someValuesFrom = Reception
+)

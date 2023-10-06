@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty(InverseObjectProperty(has_an_abstract))
+    someValuesFrom(Written_contribution)
+)

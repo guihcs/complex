@@ -1,0 +1,13 @@
+
+
+
+Restriction(
+    onProperty = InverseOf(hasSubmissionDeadline),
+    someValuesFrom = IntersectionOf(
+        CallForManuscripts,
+        Restriction(
+            onProperty = InverseOf(hasCall),
+            someValuesFrom = Workshop
+        )
+    )
+)

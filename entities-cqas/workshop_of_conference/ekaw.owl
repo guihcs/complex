@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    Workshop,
+    Restriction(
+        onProperty=InverseOf(hasEvent),
+        someValuesFrom=Conference
+    )
+)

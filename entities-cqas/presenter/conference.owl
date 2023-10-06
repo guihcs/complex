@@ -1,0 +1,12 @@
+
+
+Restriction(
+    onProperty = :gives_presentations,
+    someValuesFrom = Restriction(
+    onProperty = :has_an_abstract,
+    someValuesFrom = Restriction(
+            onProperty = InverseOf(:has_an_abstract),
+            someValuesFrom = :Written_contribution
+        )
+    )
+)

@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    PC_Member,
+    Restriction(
+        onProperty=reviewerOfPaper,
+        someValuesFrom=Paper
+    )
+)

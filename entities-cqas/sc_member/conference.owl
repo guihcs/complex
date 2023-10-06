@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty = was_a_member_of,
+    someValuesFrom = Steering_committee
+)

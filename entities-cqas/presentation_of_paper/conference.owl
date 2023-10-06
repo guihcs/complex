@@ -1,0 +1,11 @@
+
+IntersectionOf(
+    Presentation,
+    Restriction(
+        onProperty=has_an_abstract,
+        someValuesFrom=Restriction(
+            onProperty=InverseOf(has_an_abstract),
+            someValuesFrom=Written_contribution
+        )
+    )
+)

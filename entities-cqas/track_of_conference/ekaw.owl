@@ -1,0 +1,10 @@
+
+
+
+IntersectionOf(
+    Track,
+    Restriction(
+        onProperty = InverseOf(hasEvent),
+        someValuesFrom = Conference
+    )
+)

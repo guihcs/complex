@@ -1,0 +1,6 @@
+
+
+Restriction(
+    onProperty=InverseOf(has_a_track-workshop-tutorial_topic),
+    someValuesFrom=Tutorial
+)

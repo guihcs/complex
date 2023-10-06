@@ -1,0 +1,10 @@
+
+
+
+IntersectionOf(
+    Paper_Author,
+    Restriction(
+        onProperty=authorOf,
+        someValuesFrom=Paper
+    )
+)

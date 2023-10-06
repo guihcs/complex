@@ -1,0 +1,8 @@
+
+IntersectionOf(
+    Workshop,
+    Restriction(
+        onProperty = starts_on,
+        someValuesFrom = string
+    )
+)

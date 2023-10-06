@@ -1,0 +1,4 @@
+Restriction(
+    onProperty=InverseOf(label),
+    someValuesFrom=Paper
+)

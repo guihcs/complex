@@ -1,0 +1,12 @@
+
+
+UnionOf(
+    Restriction(
+        onProperty = reviewerOfPaper,
+        someValuesFrom = Paper
+    ),
+    Restriction(
+        onProperty = InverseOf(reviewWrittenBy),
+        someValuesFrom = Paper
+    )
+)

@@ -1,0 +1,8 @@
+
+Restriction(
+    onProperty=InverseOf(rdfs:label),
+    someValuesFrom=Restriction(
+        onProperty=InverseOf(heldIn),
+        someValuesFrom=Conference_Trip
+    )
+)
