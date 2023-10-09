@@ -1,4 +1,5 @@
-SELECT distinct ?s ?o WHERE {  
-?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ekaw#PC_Member> .  
-?s <http://ekaw#reviewerOfPaper> ?o .
- }
+
+Restriction(
+    onProperty=InverseOf(reviewerOfPaper),
+    someValuesFrom=PC_Member
+)
