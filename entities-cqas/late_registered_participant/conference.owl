@@ -1,5 +1,5 @@
 
 IntersectionOf(
-    Conference_participant
+    Conference_participant,
     Late_paid_applicant
 )

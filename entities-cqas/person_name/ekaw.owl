@@ -3,4 +3,3 @@ Restriction(
     onProperty=InverseOf(label),
     someValuesFrom=Person
 )
-)

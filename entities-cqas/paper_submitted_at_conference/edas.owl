@@ -4,5 +4,5 @@ IntersectionOf(
     Restriction(
         onProperty=relatesTo,
         someValuesFrom=Conference
-    ),
+    )
 )

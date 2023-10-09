@@ -6,7 +6,7 @@ Restriction(
     someValuesFrom = IntersectionOf(
         Registration_of_participants_event,
         Restriction(
-            onProperty = IntersectionOf(hasAdministrativeEvent),
+            onProperty = InverseOf(hasAdministrativeEvent),
             someValuesFrom = Conference
         )
     )

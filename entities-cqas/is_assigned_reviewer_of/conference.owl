@@ -1,16 +1,16 @@
 
 IntersectionOf(
     Restriction(
-    onProperty=contributes,
-    someValuesFrom=Restriction(
-        onProperty=reviews,
-        someValuesFrom=Review
-    )
+        onProperty=contributes,
+        someValuesFrom=Restriction(
+            onProperty=reviews,
+            someValuesFrom=Review
+        )
     ),
 
     Restriction(
         onProperty=was_a_member_of,
         someValuesFrom=Program_committee
-    ),
+    )
 
 )

@@ -1,10 +1,10 @@
 
 
-intersection(
-    Abstract
+IntersectionOf(
+    Abstract,
     Restriction(
-        onProperty(InverseObjectProperty(has_an_abstract))
-        someValuesFrom(Invited_talk)
+        onProperty = InverseOf(has_an_abstract),
+        someValuesFrom = Invited_talk
     )
 )
 

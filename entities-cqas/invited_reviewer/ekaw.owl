@@ -1,5 +1,6 @@
 
 
+
 IntersectionOf(
     Restriction(
         onProperty=InverseOf(reviewWrittenBy),

@@ -3,7 +3,7 @@ IntersectionOf(
     Presenter,
     Restriction(
         onProperty = InverseOf(relatesTo),
-        IntersectionOf(
+        someValuesFrom = IntersectionOf(
             SlideSet,
             Restriction(
                 onProperty = relatesTo,

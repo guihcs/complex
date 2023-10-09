@@ -5,4 +5,3 @@ Restriction(
     onProperty = InverseOf(has_a_name),
     someValuesFrom = Conference
 )
-)

@@ -2,7 +2,7 @@
 
 IntersectionOf(
     Written_contribution,
-    ComplemetOf(
+    ComplementOf(
         Abstract
     )
 )
